@@ -23,7 +23,7 @@ class MainPage extends Component {
     render() {
         return(
             <div>
-                <Container object-fit='cover' width='1536 px' height='1150px' margin-top='0' box-sizing='border-box' style={{ 
+                <Container object-fit='cover' margin-top='0' box-sizing='border-box' style={{ 
                     alignSelf: 'left',
                     marginLeft:'0px',
                     flexDirection: 'row',
@@ -32,13 +32,14 @@ class MainPage extends Component {
                 }}>
                     <video
                     display="block"
-                    width="1536px"
-                    height="1150px"
+                    width="100%"
+                    height="100%"
                     object-fit="cover"
                     preload="auto"
                     loop
                     autoPlay
                     muted
+                    margin-top="0rem"
                     >
                         <source src={video} type="video/mp4" />
                     </video>
