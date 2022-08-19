@@ -23,12 +23,14 @@ class MainPage extends Component {
     render() {
         return(
             <div>
-                <Container object-fit='cover' margin-top='0' box-sizing='border-box' style={{ 
+                <Container className='g-0' object-fit='cover' margin-top='0' box-sizing='border-box' style={{ 
                     alignSelf: 'left',
                     marginLeft:'0px',
                     flexDirection: 'row',
                     alignContent: 'flex-start',
-                    display: 'fixed'
+                    display: 'fixed',
+                    width:'100%',
+                    gutterx: '1.5rem'
                 }}>
                     <video
                     display="block"

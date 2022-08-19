@@ -35,7 +35,7 @@ class AppNavbar extends Component {
     render() {
         return (
         <div>
-            <Navbar color='dark' dark expand="sm" className="mb-5">
+            <Navbar color='dark' dark expand="sm" className="mb-0">
                     <Nav style={{
                         paddingLeft: '2rem',
                         flex:'0',
