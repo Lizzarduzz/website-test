@@ -10,9 +10,7 @@ function App() {
   return (
     <div className="App">
         <AppNavbar />
-        <Container>
-          <MainPage />
-        </Container>
+        <MainPage />
     </div>
   );
 }

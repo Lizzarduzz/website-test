@@ -1,5 +1,47 @@
 body {
+    width:100%;
+    height:100%;
     margin: 0;
     padding: 0;
     display: block;
+  }
+
+  .backg {
+    --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0rem;
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    object-fit: fill;
+    margin-top: 0; 
+    box-sizing: content-box;
+    flex-direction: row;
+    align-content: flex-start;
+    display: flex;
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+
+  .content {
+    position: absolute;
+    width: auto;
+    height: auto;
+    --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0rem;
+    margin-left: 2rem;
+    object-fit: scale-down;
+    display: block;
+    padding: 0;
+  }
+
+  .video {
+    display: flex;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+    margin-top:0rem;
+    --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0rem;
+    margin-left: 0rem;
   }
